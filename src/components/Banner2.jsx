@@ -9,7 +9,7 @@ function Banner2(){
                 
             </div>
             <div className="banner__text banner2__btn">
-                <a class="SayHello" href="#">Say Hello</a>
+                <a class="SayHello banner2SH" href="#">Say Hello</a>
             </div>
             <img src={img_banner2} alt="" />
         </div>

@@ -69,7 +69,12 @@
     font-size: 16px;
     margin-right: 11px;
     margin-left: 0;
+    cursor: pointer;
+    /* transition: var(--transition); */
     
+}
+.btn.lg.SH:hover{
+    background-color: #3936dc;
 }
 .btn.lg.SW {
     background-color: transparent;
@@ -83,7 +88,10 @@
     margin-left: 11px;
     
 }
-
+.btn.lg.SW:hover{
+    background-color: #423efe;
+    color: white;
+}
 .main__header-sparkle img {
     width: 44px;
     height: 44px;
@@ -377,6 +385,17 @@
     .card-component {
         width: 70vw !important;
     }
+    .project-heading h2{
+        font-size: 6vw;
+    }
+    .project-heading p{
+        font-size: 2.5vw;
+    }
+    .allProj a{
+        padding: 1.5vw 3vw;
+        font-size: 2.5vw;
+        border: 1px solid #423efe;
+    }
 }
 
 /*------------------------------Banner-----------------------------*/
@@ -452,6 +471,9 @@
     border: 2px solid #423EFE;
     border-radius: 3rem;
 }
+.SayHello:hover{
+    background-color: #3936dc;
+}
 
 @media screen and (max-width:786px){
    
@@ -461,7 +483,7 @@
         
     }
     .card-component {
-        width: 70vw !important;
+        width: 100% !important;
     }
     .wwd__div {
         width:100%;
@@ -479,12 +501,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width:37vw;/*change it later*/
+        width:fit-content;/*change it later*/
+        font-size: 2.5vw;
         margin:0 auto;
     }
     .wwd__div p{
-        width:39vw;
-        font-size: 0.9rem;
+        width:fit-content;
+        font-size: 2.5vw;
+        padding:1.5vw 3vw;
+        height: fit-content;
     }
 }
 
@@ -515,6 +540,18 @@
 .testi-heading h2{
     margin: 1.2rem 0 2rem 0;
     font-weight: 600;
+}
+@media screen and (max-width:786px){
+    .testi-heading h2{
+        font-size: 6vw;
+        margin:4vw 0;
+    }
+    .testi-heading p{
+        padding:1.5vw 3vw;
+        font-size: 2.5vw;
+        width: fit-content;
+        height: fit-content;
+    }
 }
 
 /*-----------SCROLLING TESTI--------*/
@@ -572,6 +609,11 @@
 }
 .banner2{
     margin-top: 4rem;
+}
+
+.banner2SH:hover{
+    color:white;
+    border:2px solid white;
 }
 /*------------------------Banner2--------------------*/
 .banner2__btn{

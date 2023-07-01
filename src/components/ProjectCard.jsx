@@ -32,7 +32,7 @@ const buttonStyle={
     fontSize:"1rem",
     color:"#423efe",
     padding: "0.5rem 2rem",
-    border: "2px solid #423efe",
+    border: "1px solid #423efe",
     borderRadius:"3rem",
 }
 

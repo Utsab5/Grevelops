@@ -5,7 +5,7 @@ import Pic from "../images/project-card.png"
 
 function Project(){
     return (
-        <div className="container" style={{justifyContent:"center",display:"flex",marginTop:"7rem"}}>
+        <div className="container" style={{justifyContent:"center",display:"flex",marginTop:"10vw"}}>
             <div className="project" >
                 <div className="project-heading">
                     <h2>Latest Projects for Clients</h2>
