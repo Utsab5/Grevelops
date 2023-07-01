@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*, *::before, *::after {
+    margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --primary-hue: 210;
+    --gray-hue: 240;
+    --color-primary: hsl(var(var(--primary-hue),100%,50%));/*hsl => hue saturation lightness*/
+
+    --container-width-lg: 80%;/*large devices*/
+    --container-width-md: 90%;/*mobile devices*/
+
+    --transition: all 500ms ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    line-height:1.7 ;
+    overflow-x:hidden;
+    background: #EEEEFF;
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    color: black;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+a {
+    color: #39393d;
+}
+
+
+
+.btn {
+    color: pink;
+    width: fit-content;
+    margin:0 auto;
+    padding: 0.9rem 2rem;
+    background: blue;
+    border-radius: 1.5rem;
+    transition: var(--transition);
+    align-items: center;
+    text-align: center;
+}
+.btn:hover {
+    background-color: red;
+    color:yellow;
+}
+
+.btn.lg {
+    /* padding: 1.2rem 3rem; */
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+.btn.sm {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+}
+.btn.sm:hover {
+    background-color: green;
+}
+
+/* *******************************************ProjectCard Styling************************************************************* */
+.card-component a:hover{
+    background-color: #423efe;
+    color: white !important;
+}
+
+@media screen and (max-width: 786px){
+    .card-component h4{
+        font-size: 4.5vw !important;
+    }
+    .card-component p{
+        font-size: 2.5vw !important;
+    }
+    .card-component img{
+        margin-bottom:"0.8rem" !important;
+    }
+    .card-component a{
+        font-size: 2.5vw !important;
+        padding:1.5vw 3vw !important;
+    }
 }

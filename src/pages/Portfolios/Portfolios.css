@@ -1,0 +1,95 @@
+.port-heading {
+    margin-top: 6.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.port-heading h1 {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-align: center;
+    font-size: 35px;
+    font-family: Poppins;
+}
+.port-heading p{
+    text-align: center;
+    font-size: 15px;
+    width:50%;
+}
+
+
+/*----------------------------TABS------------------------*/
+
+.category{
+    margin: 2.5rem auto;
+    padding:0.7rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: center;
+    width:fit-content
+}
+.category div{
+    padding:0.3rem 1rem;
+    border-radius: 1rem;
+    background-color: #eeeeff;
+    cursor: pointer;
+}
+.container{
+    justify-content: center;
+}
+.items {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:24px;
+    width:fit-content;
+    margin:0 auto;
+}
+.items div{
+    /* display: flex; */
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px){
+    .port-heading p{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 786px){
+    .items {
+        grid-template-columns: 1fr;
+    }
+    .port-heading p{
+        width:80%;
+    }
+    .category div{
+        font-size: 2vw;
+        text-align: center;
+    }
+    .category{
+        gap:2vw;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .port-heading p{
+        font-size: 10px;
+    }
+    .port-heading h1{
+        font-size: 30px;
+    }
+    .port-heading{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .category{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/*----------------------------TABS------------------------*/
