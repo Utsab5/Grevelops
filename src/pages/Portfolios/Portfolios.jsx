@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Portfolio_heading from "../../components/Portfolio_heading";
+import PortfolioHeading from "../../components/PortfolioHeading";
 import ProjectCard from "../../components/ProjectCard";
 import "./Portfolios.css"
 import Footer from "../../components/Footer"
@@ -47,7 +47,7 @@ function Portfolios(){
     return (
         <>
             <div className="container">
-                <Portfolio_heading />
+                <PortfolioHeading />
                 <div className="category">
                     <div onClick={() => activeTab(1)} style={{background:tab===1?"#423EFE":"",color:tab===1?"white":""}}>All</div>
                     <div onClick={() => activeTab(2)} style={{background:tab===2?"#423EFE":"",color:tab===2?"white":""}}>Web Development</div>

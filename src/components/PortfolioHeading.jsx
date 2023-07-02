@@ -1,6 +1,6 @@
 import React from "react";
 
-function Portfolio_heading() {
+function PortfolioHeading() {
     return (
         <div className="port-heading">
             <h1>Discover the works done by us!  </h1>
@@ -8,4 +8,4 @@ function Portfolio_heading() {
         </div>
     );
 };
-export default Portfolio_heading;
+export default PortfolioHeading;

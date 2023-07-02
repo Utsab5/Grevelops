@@ -28,7 +28,7 @@ function Navbar(){
                         })
                     }
                     <li className="nav__links">
-                        <a className="SH" href="#">Say Hello</a>
+                        <a className="SH" href="https://">Say Hello</a>
                     </li>
                 </ul>
                 <button className="nav__toggle-btn" onClick={()=> setIsNavShowing(prev => !prev)}>

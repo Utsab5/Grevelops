@@ -24,13 +24,13 @@ const textStyle={
     color:"rgba(23, 23, 23, 0.60)",
     margin:"1rem",
 }
-const buttonStyle={
-    fontSize:"1rem",
-    color:"#423efe",
-    padding: "0.5rem 2rem",
-    border: "2px solid #423efe",
-    borderRadius:"3rem",
-}
+// const buttonStyle={
+//     fontSize:"1rem",
+//     color:"#423efe",
+//     padding: "0.5rem 2rem",
+//     border: "2px solid #423efe",
+//     borderRadius:"3rem",
+// }
 
 
 function WhatWeDoCard(props) {

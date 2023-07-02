@@ -15,21 +15,21 @@ function Footer(){
                 </article>
                 <article>
                     <h4 className="">About</h4>
-                    <a href="">Our Mission</a>
-                    <a href="">Career</a>
+                    <a href="https://">Our Mission</a>
+                    <a href="https://">Career</a>
                     {/* <a href="">About</a> */}
                 </article>
                 <article>
                     <h4 className="">Support</h4>
-                    <a href="">FAQ's</a>
-                    <a href="">Terms and Policy</a>
+                    <a href="https://">FAQ's</a>
+                    <a href="https://">Terms and Policy</a>
                     {/* <a href="">About</a> */}
                 </article>
                 <article>
                     <h4 className="">Follow Us</h4>
-                    <a href="">Linkedin</a>
-                    <a href="">Facebook</a>
-                    <a href="">Twitter</a>
+                    <a href="https://">Linkedin</a>
+                    <a href="https://">Facebook</a>
+                    <a href="https://">Twitter</a>
                 </article>
             </div>
             <div className="footer__copyright">

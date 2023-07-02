@@ -38,7 +38,7 @@ function Project(){
                     />
                 </div>
                 <div className="allProj">
-                    <a href="#">View All Projects</a>
+                    <a href="https://">View All Projects</a>
                 </div>
             </div>
         </div>

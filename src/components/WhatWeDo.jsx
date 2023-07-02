@@ -12,7 +12,7 @@ function WhatWeDo(){
                     <div className="wwd__div">
                         <p>What We Do</p>
                         <h3>We Bring Happiness using Services</h3>
-                        <a class="SayHello" href="#">Say Hello</a>
+                        <a class="SayHello" href="https://">Say Hello</a>
                     </div>
                     <WhatWeDoCard 
                         img={Pic}
