@@ -1,0 +1,23 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#F5F5F5"/>
+<g id="About Us Page" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="4677" transform="translate(-449 -3564)" fill="#EEEEFF"/>
+<g id="Group 47">
+<rect id="Rectangle 52" x="-349" y="-420" width="405" height="513" rx="8" fill="white"/>
+<circle id="Ellipse 6" cx="10" cy="10" r="16" fill="#423EFE"/>
+<g id="line-md:linkedin">
+<path id="Vector" d="M3.33366 4.99984C4.25413 4.99984 5.00033 4.25365 5.00033 3.33317C5.00033 2.4127 4.25413 1.6665 3.33366 1.6665C2.41318 1.6665 1.66699 2.4127 1.66699 3.33317C1.66699 4.25365 2.41318 4.99984 3.33366 4.99984Z" fill="white"/>
+<g id="Group">
+<path id="Vector_2" d="M3.33301 8.3335V16.6668" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+<path id="Vector_3" d="M8.33301 8.3335V16.6668" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+<path id="Vector_4" d="M8.33301 12.5002C8.33301 10.199 10.1985 8.3335 12.4997 8.3335C14.8008 8.3335 16.6663 10.199 16.6663 12.5002V16.6668" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="4677" fill="white" transform="translate(-449 -3564)"/>
+</clipPath>
+</defs>
+</svg>

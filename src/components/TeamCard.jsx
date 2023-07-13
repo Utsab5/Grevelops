@@ -1,5 +1,4 @@
 import React from "react";
-import pic from "../images/team1.png"
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BiLogoTwitter } from 'react-icons/bi';
 
@@ -7,14 +6,15 @@ import { BiLogoTwitter } from 'react-icons/bi';
 function TeamCard(props){
     return(
         <div className="team__container">
-            <img src={pic} alt="" />
+            <img src={props.image} alt="" />
+
             <div className="name">
-                <p>Ayush Mittal</p>
-                <a href="#"><BiLogoLinkedin color="white" size="1.7vw" /></a>
+                <p>{props.name}</p>
+                <a href={props.L_link}><BiLogoLinkedin color="white" size="1.7vw" /></a>
             </div>
             <div className="pos">
-                <p>Co-founder & CEO</p>
-                <a href=""><BiLogoTwitter color="white" size="1.7vw" /></a>
+                <p>{props.pos}</p>
+                <a href={props.T_link}><BiLogoTwitter color="white" size="1.7vw" /></a>
             </div>
         </div>
     );

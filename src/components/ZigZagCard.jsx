@@ -4,11 +4,11 @@ import img from "../images/zzc1.png";
 function ZigZagCard(props){
     return (
         <div className="zzc" style={{flexDirection:props.flexD}}>
-            <img src={img} alt="" />
+            <img src={props.img} alt="" />
             <div className="zzc_contents">
-                <p className="zzc_sub">Our Mission</p>
-                <h2>Building Better Digital Products for Future</h2>
-                <p className="zzc__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda accusantium, explicabo deserunt delectus iure exercitationem nemo illum necessitatibus a hic quaerat dignissimos. Commodi magnam veniam itaque aliquid delectus molestiae?</p>
+                <p className="zzc_sub">{props.sub}</p>
+                <h2>{props.heading}</h2>
+                <p className="zzc__p">{props.txt}</p>
             </div>
         </div>
     );
