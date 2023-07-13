@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../images/zzc1.png";
 
 function ZigZagCard(props){
     return (
