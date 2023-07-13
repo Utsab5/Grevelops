@@ -4,6 +4,7 @@ import PortfolioHeading from "../../components/PortfolioHeading";
 import ProjectCard from "../../components/ProjectCard";
 import "./Portfolios.css"
 import Footer from "../../components/Footer"
+import Banner2 from "../../components/Banner2";
 
 const data=[
     {
@@ -71,7 +72,8 @@ function Portfolios(){
                     })}
                 </div>
             </div>
-                <Footer />
+            <Banner2/>
+            <Footer />
         </>
     );
 }

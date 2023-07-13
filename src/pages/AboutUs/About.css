@@ -16,10 +16,10 @@
     font-family: 'Poppins';
     text-align: center;
     margin:1rem 0;
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: 500;
     width:60%;
-    line-height: 1.8rem;
+    line-height: 2vw;
 }
 
 /*-----------------------------------OverlayImageBAnner-------------*/
@@ -56,9 +56,319 @@
     z-index: 2;
 }
 .oib__overlay{
-    height:39vw;
+    height:38.6vw;
     width:100%;
     position:absolute;
     background: #1E1BC999;
     z-index: 1;
 }
+/*-----------------------------------OverlayImageBAnner-------------*/
+
+/*---------------------------ZigZagCard------------------------------*/
+.zzc_container{
+    margin:5rem 7vw;
+    display: flex;
+    gap:4rem;
+    flex-direction: column;
+}
+.zzc{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+.zzc_contents{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 4rem; */
+}
+.zzc img{
+    width:35vw;
+    padding: 0.5rem;
+}
+.zzc_contents h2{
+    margin: 1rem 0;
+    width: 70%;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 2vw;
+}
+.zzc_contents p{
+    margin: 0.5rem 0;
+    font-size: 1.2vw;
+}
+.zzc_sub{
+    margin:0 !important;
+    padding: 0.7vw 1.2vw;
+    background: #bcbbff;
+    color: #423efe;
+    border-radius: 3rem;  
+    width: fit-content;
+}
+/*---------------------------Heading------------------------------*/
+.heading_div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading_div p{
+    padding:0.8vw 1.8vw;
+    font-size: 1.5vw;
+    background-color: #bcbbff;
+    color: #423efe;
+    border-radius: 3rem;
+    margin-bottom: 1.5rem;
+}
+.heading_div h2{
+    font-family: 'Poppins';
+    font-size: 2.2vw;
+    font-weight: 500;
+    margin-bottom: 5vw;
+}
+
+
+/*----------------------------WpCards--------------------------------*/
+.wpCards__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:1rem 7vw;
+    gap:1.5vw;
+    margin-bottom: 8vw;
+}
+.wpCard_container{
+    background-color: white;
+    padding-bottom: 6vw;
+    border-radius: 1.2rem;
+}
+.wpCard_container .index{
+    background-color: #bcbbff;
+    width:3.5vw;
+    height: 3.5vw;
+    text-align: center;
+    color: #423efe;
+    margin: 0 auto;
+    position: relative;
+    top:-2vw;
+    border-radius: 2rem;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wpCard_container .heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 1vw;
+    font-size: 1.7vw;
+}
+.wpCard_container .txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2vw;
+    padding: 0 2vw;
+    padding-top:1.5vw;
+}
+
+/*-------------------team-----------------*/
+.teamCards__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2vw;
+    margin:0 3rem;
+    margin-bottom: 5rem;
+}
+
+.team__container {
+    padding:1rem;
+    background-color: white;
+    border-radius: 0.8rem;    
+}
+.team__container img{
+    border-radius: 0.8rem;
+    margin-bottom: 2vw;
+}
+.team__container .name, .team__container .pos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0.5vw;
+}
+
+.team__container .name p{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.team__container .pos p{
+    color: gray;
+    font-size: 1.5vw;
+}
+.team__container .name a , .team__container .pos a{
+    background-color: #423efe;
+    display: flex;
+    width:2.5vw;
+    height: 2.5vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+@media screen and (max-width:768px) {
+    .about__heading p{
+        font-size: 3vw;
+    }
+    .about__heading h4{
+        margin:1vw 0;
+        font-size: 2vw;
+        width:80%;
+        line-height: 2.5vw;
+    }
+    .zzc_contents p{
+        font-size: 1.7vw;
+    }
+    .zzc_contents h2{
+        font-size: 3vw;
+    }
+    .zzc_container{
+        gap:2rem;
+    }
+    .zzc__p{
+        font-size: 1.7vw !important;
+    }
+    .zzc img{
+        height:20vw;
+        margin:auto 0;
+    }
+    .oib__text h2{
+        font-size: 3vw;
+    }
+    .heading_div p{
+        font-size: 2vw;
+    }
+    .heading_div h2{
+        font-size: 3vw;
+    }
+    .wpCards__container{
+        grid-template-columns: 1fr 1fr;
+        column-gap:0;
+        row-gap: 2rem;
+    }
+    .wpCard_container{
+        width:85%;
+        margin:0 auto;
+    }
+    .wpCard_container .index{
+        font-size: 2.8vw;
+        width:4.5vw;
+        height:4.5vw;
+    }
+    .wpCard_container .heading{
+        font-size: 2.3vw;
+    }
+    .wpCard_container .txt{
+        font-size: 1.7vw;
+    }
+    .teamCards__container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+}
+
+@media screen and (max-width:544px) {
+    .about__heading p{
+        font-size: 1.5rem;
+    }
+    .about__heading h4{
+        font-size: 0.8rem;
+        width:100%;
+        line-height: 1rem;
+    }
+    .oib__text h2{
+        font-size: 1rem;
+    }
+    .zzc {
+        flex-direction: column !important;
+    }
+    .zzc_container {
+        margin: 3rem 7vw;
+    }
+    .zzc img{
+        width:auto;
+        height:auto;
+    }
+    .zzc_contents{
+        align-items: center;
+    }
+    .zzc_contents p{
+        font-size: 2.7vw;
+    }
+    .zzc_contents h2{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 0.1rem;
+    }
+    .zzc__p{
+        font-size: 0.8rem !important;
+        text-align: center;
+        padding: 0 2rem;
+    }
+    .heading_div p{
+        font-size: 0.9rem;
+        padding: 0.2rem 1rem;
+    }
+    .heading_div h2{
+        font-size: 1.2rem;
+        padding:0 0.8rem;
+    }
+    .wpCards__container{
+        grid-template-columns: 1fr;
+    }
+    .wpCards_container{
+        padding-bottom: 2rem;
+    }
+    .wpCard_container .index{
+        font-size: 1rem;
+        width:2rem;
+        height:2rem;
+        top:-1rem;
+    }
+    .wpCard_container .heading{
+        font-size: 1.1rem;
+        
+    }
+    .wpCard_container .txt{
+        font-size: 0.8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;        
+    }
+    .teamCards__container{
+        grid-template-columns: 1fr;
+    }
+    .team__container .name p{
+        font-size: 1.6rem;
+    }
+    .team__container .pos p{
+        font-size: 0.75rem;
+    }
+    .team__container .name a{
+        width:1.5rem;
+        height:1.5rem;
+    }
+    .team__container .pos a{
+        width:1.5rem;
+        height:1.5rem;
+    }
+    .team__container .name a svg{
+        width:1rem;
+        height:1rem;
+    }
+    .team__container .pos a svg{
+        width:1rem;
+        height:1rem;
+    }
+
+
+}
+
