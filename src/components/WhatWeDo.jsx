@@ -1,7 +1,6 @@
 import React from "react";
 import "../index.css"
 import WhatWeDoCard from "./WhatWeDoCard";
-import Pic from "../images/www.png"
 
 function WhatWeDo(){
     return (
@@ -15,22 +14,22 @@ function WhatWeDo(){
                         <a class="SayHello" href="https://">Say Hello</a>
                     </div>
                     <WhatWeDoCard 
-                        img={Pic}
+                        img="../images/www.png"
                         heading="Web Development"
                         text="The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil"
                     />
                     <WhatWeDoCard 
-                        img={Pic}
+                        img="../images/www.png"
                         heading="Web Development"
                         text="The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil"
                     />
                     <WhatWeDoCard 
-                        img={Pic}
+                        img="../images/www.png"
                         heading="Web Development"
                         text="The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil"
                     />
                     <WhatWeDoCard 
-                        img={Pic}
+                        img="../images/www.png"
                         heading="Web Development"
                         text="The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil"
                     />

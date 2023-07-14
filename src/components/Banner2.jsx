@@ -1,5 +1,4 @@
 import React from "react";
-import img_banner2 from "../images/banner2.png"
 
 function Banner2(){
     return (
@@ -11,7 +10,7 @@ function Banner2(){
             <div className="banner__text banner2__btn">
                 <a class="SayHello banner2SH" href="https://">Say Hello</a>
             </div>
-            <img src={img_banner2} alt="" />
+            <img src="../images/banner2.png" alt="" />
         </div>
     );
 };

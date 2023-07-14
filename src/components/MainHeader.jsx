@@ -2,11 +2,6 @@
 import "../pages/Home/Home.css"
 import React from "react";
 import { Link } from "react-router-dom";
-import Img1 from "../images/Header_img1.png"
-import Img2 from "../images/Header_img2.png"
-import Img3 from "../images/Header_img3.png"
-import Img4 from "../images/Header_img4.png"
-import SparkleImg from "../images/sparkle.png"
 
 function MainHeader(){
     return(
@@ -34,17 +29,17 @@ function MainHeader(){
                 </div>
                 <div className="main__header-right">
                     <div className="main__header-sparkle">
-                        <img src={SparkleImg} alt="sparkle-img" />
+                        <img src="../images/sparkle.png" alt="sparkle-img" />
                     </div>
                     <div className="main__header-images">
 
                         <div class="main__header-images-left">
-                            <img src={Img1} alt="Header-img1" />
-                            <img src={Img3} alt="Header-img3" />
+                            <img src="../images/Header_img1.png" alt="Header-img1" />
+                            <img src="../images/Header_img3.png" alt="Header-img3" />
                         </div>
                         <div class="main__header-images-right">
-                            <img src={Img2} alt="Header-img2" />
-                            <img src={Img4} alt="Header-img4" />
+                            <img src="../images/Header_img2.png" alt="Header-img2" />
+                            <img src="../images/Header_img4.png" alt="Header-img4" />
                         </div>
                         
                         
