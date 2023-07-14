@@ -1,11 +1,11 @@
 import React from "react";
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 import Footer from "../../components/Footer";
 import "./Case.css"
 function Case(){
-    const location = useLocation();
-    const searchParams = new URLSearchParams(location.search);
-    const heading = searchParams.get('heading');
+    // const location = useLocation();
+    // const searchParams = new URLSearchParams(location.search);
+    // const heading = searchParams.get('heading');
     return(
         <div>
             <div className="case__heading">
