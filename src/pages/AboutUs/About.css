@@ -82,8 +82,11 @@
     /* padding-left: 4rem; */
 }
 .zzc img{
-    width:35vw;
+    /* width:35vw; */
+    max-height: 15rem;
+    /* height:10vw; */
     padding: 0.5rem;
+    margin:auto 0
 }
 .zzc_contents h2{
     margin: 1rem 0;
@@ -98,11 +101,14 @@
 }
 .zzc_sub{
     margin:0 !important;
-    padding: 0.7vw 1.2vw;
+    padding: 0.5rem 1rem;
     background: #bcbbff;
     color: #423efe;
     border-radius: 3rem;  
-    width: fit-content;
+    /* width:fit-content ; */
+    max-width: 9rem;
+    text-align: center;
+    /* font-size: 1rem; */
 }
 /*---------------------------Heading------------------------------*/
 .heading_div{

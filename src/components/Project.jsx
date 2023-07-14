@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../index.css"
 import ProjectCard from "./ProjectCard";
 const project__content=[
@@ -46,7 +47,8 @@ function Project(){
                 </div>
                 <div className="project-card" >{P}</div>
                 <div className="allProj">
-                    <a href="/portfolios">View All Projects</a>
+                    {/* <a href="/portfolios">View All Projects</a> */}
+                    <Link to="/portfolios" className="project__a">See our Works</Link>
                 </div>
             </div>
         </div>

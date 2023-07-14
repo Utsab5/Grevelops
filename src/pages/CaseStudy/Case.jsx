@@ -1,16 +1,15 @@
 import React from "react";
-// import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import Footer from "../../components/Footer";
 import "./Case.css"
 function Case(){
-    // const location = useLocation();
-    // const searchParams = new URLSearchParams(location.search);
-    // const heading = searchParams.get('heading');
+    const location = useLocation();
+    const { heading } = location.state || { heading: 'Built an Admin panel for Mudryk' };
     return(
         <div>
             <div className="case__heading">
-                <h2>Built an Admin panel for Mudryk</h2>
-                {/* <h2>{heading}</h2> */}
+                {/* <h2>Built an Admin panel for Mudryk</h2> */}
+                <h2>{heading}</h2>
                 <p>An app that help users to manage their Finances and Budget for a better financial life</p>
             </div>
             <img src="../images/case1.png" alt="" />
