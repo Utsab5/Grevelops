@@ -1,0 +1,178 @@
+.contact__container{
+    /* margin: 0 10%; */
+    margin-top: 5.4rem;
+}
+.contact__heading{
+    display: flex;
+    justify-content: center;
+}
+.contact__heading h3{
+    color: #212121;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3vw;
+    /* font-size: 32px; */
+    font-weight: 500;
+    line-height: normal;
+    width:30%;
+}
+.contact__btn {
+    margin:2rem;
+    display: flex;
+    justify-content: center;
+}
+.contact__btn a{
+    background-color: #1CAE4E;
+    padding:1rem 2rem;
+    color: #F3F5FF;   
+    border-radius: 3rem;
+}
+.contact__btn a:hover{
+    background-color: #157637;
+}
+
+/*-------------------------------Card1----------------------------------*/
+.contact__cards{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: center;
+    margin:0 5%;
+}
+.card1__container{
+    background-color: white;
+    padding:3rem;
+    border-radius: 2rem;
+    width:100%;
+    margin-bottom: 3rem;
+}
+.card1__container h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.3vw;
+    margin-bottom: 1rem;
+}
+.card1__container p{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+.card1__container a{
+    margin:0 auto;
+    border: 1px solid #423EFE;
+    color: #423EFE;
+    border-radius: 3rem;
+    padding:0.5rem 1rem;
+    display: flex;
+    width: fit-content;
+}
+.card1__container a:hover{
+    background: #423EFE;
+    /* border: 1px solid #423EFE; */
+    color: white;
+    
+}
+
+/*------------------------------get in touch -------------------------------------*/
+.contact__get_in_touch{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin:0 5%;
+}
+.contact__get_in_touch img{
+    width:45vw;
+    margin: 0 auto;
+}
+.git__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 3rem; */
+    width: 50%;
+    text-align: center;
+}
+.git__content h4{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.git__content h3{
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+.git__content p{
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    .card1__container h3{
+        font-size: 2.7vw;
+    }
+    .card1__container p{
+        font-size: 0.8rem;
+    }
+    .card1__container a{
+        font-size: 0.8rem;
+    }
+    .contact__cards {
+        gap:0.8rem;
+    }
+    .card1__container{
+        padding:2rem;
+    }
+    .contact__btn a{
+        font-size: 0.8rem;
+        padding:0.5rem 1rem;
+    }
+    .git__content h4{
+        font-size: 2vw;
+    }
+    .git__content h3{
+        font-size: 2.5vw;
+    }
+    .git__content p{
+        font-size: 0.8rem;
+    }
+
+
+
+}
+@media screen and (max-width:650px) {
+    .contact__cards{
+        flex-direction: column;
+        margin:0 10%;
+    }
+    .card1__container h3{
+        font-size: 1.6rem;
+    }
+    .card1__container {
+        margin-bottom: 0;
+    }
+    .contact__heading h3{
+        font-size: 1.6rem;
+        width:60%;
+    }
+    .contact__get_in_touch{
+        margin:0 10%;
+        margin-top: 2rem;
+        flex-direction: column-reverse;
+    }
+    .contact__get_in_touch img{
+        width:55vw;
+    }
+    .git__content{
+        width:100%;
+        margin-top: 2rem;
+    }
+    .git__content h4{
+        font-size: 1.4rem;
+    }
+    .git__content h3{
+        font-size: 1.4rem;
+    }
+    .git__content p{
+        font-size: 0.9rem;
+    }
+}

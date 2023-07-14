@@ -44,7 +44,9 @@ function ProjectCard(props) {
         <h4 style={headingStyle}>{props.heading}</h4>
         <p style={textStyle}>{props.text}</p>
         <div style={{display:"flex",justifyContent:"center"}}>
-            <a style={buttonStyle} href={props.button}>Read Case Study</a>
+            {/* <a style={buttonStyle} href={props.button}>Read Case Study</a> */}
+            <a style={buttonStyle} href={`/case?heading=${encodeURIComponent(props.heading)}`}>Read Case Study</a>
+
         </div>
         <br></br>
         

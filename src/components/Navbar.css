@@ -110,6 +110,10 @@ nav {
         align-items: center;
         padding: 1rem 5rem 1rem 3rem;
     }
+    .SH{
+        padding:0 !important;
+        padding-left: 3rem !important;
+    }
 
     .show__nav {
         display : flex;

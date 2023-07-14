@@ -74,6 +74,7 @@ const zzc__content = [
 ]
 
 function About(){
+    
     const WP = wp__content.map((data)=>{
         return <WpCards 
                     index={data.index}
@@ -105,7 +106,10 @@ function About(){
                 <p>We are Grevelops</p>
                 <h4>At Grevelops, we are passionate about pushing the boundaries of web and App development and staying ahead of the latest trends and technologies.</h4>
             </div>
-            <OverlayImageBanner />
+            <OverlayImageBanner 
+                img="../images/oibImg1.png" 
+                txt="A TEAM THAT ALWAYS FOCUS ON YOUR GROWTH"
+            />
             <div className="zzc_container">{ZZC}</div>
             <Heading 
                 p="Work Process"

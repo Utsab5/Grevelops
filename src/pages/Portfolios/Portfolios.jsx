@@ -31,6 +31,30 @@ const data=[
         text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
         link:"$",
     },
+    {
+        id:4,
+        item:"WD",//Web Development
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
+        heading:"Features of HTML",
+        text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
+        link:"/",
+    },
+    {
+        id:5,
+        item:"AD",//App Development
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
+        heading:"ReactNative or Flutter ?",
+        text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
+        link:"$",
+    },
+    {
+        id:6,
+        item:"UI",//UI/UX
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
+        heading:"How to design in Figma ?",
+        text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
+        link:"$",
+    },
 ];
 
 
