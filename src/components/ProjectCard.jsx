@@ -1,6 +1,6 @@
 import React from 'react'
 import "../index.css"
-import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 
 const divStyle={
     width: "35vw",
@@ -48,12 +48,13 @@ function ProjectCard(props) {
             {/* <a style={buttonStyle} href="case">Read Case Study</a> */}
             {/* <a style={buttonStyle} href={`/case?heading=${encodeURIComponent(props.heading)}`}>Read Case Study</a> */}
             {/* <NavLink to="case" style={buttonStyle}  href={`/case?heading=${encodeURIComponent(props.heading)}`}>Read Case Study</NavLink> */}
-            <NavLink to={{
+            {/* <NavLink to={{
                 pathname: "case",
                 state: {
                     heading: props.heading
                 }
-                }} style={buttonStyle}>Read Case Study</NavLink>
+                }} style={buttonStyle}>Read Case Study</NavLink> */}
+            <Link to="/case" style={buttonStyle}>Read Case Study</Link>    
 
         </div>
         <br></br>
