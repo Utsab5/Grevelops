@@ -8,7 +8,6 @@ function Case(){
     return(
         <div>
             <div className="case__heading">
-                {/* <h2>Built an Admin panel for Mudryk</h2> */}
                 <h2>{heading}</h2>
                 <p>An app that help users to manage their Finances and Budget for a better financial life</p>
             </div>

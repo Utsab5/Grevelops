@@ -38,6 +38,11 @@ function Project(){
                     text={data.text}
                 />
     })
+
+    const goToTop = () => {        
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    };
+    
     return (
         <div className="container" style={{justifyContent:"center",display:"flex",marginTop:"10vw"}}>
             <div className="project" >
@@ -48,7 +53,7 @@ function Project(){
                 <div className="project-card" >{P}</div>
                 <div className="allProj">
                     {/* <a href="/portfolios">View All Projects</a> */}
-                    <Link to="/portfolios" className="project__a">See our Works</Link>
+                    <Link to="/portfolios" onClick={goToTop} className="project__a">See our Works</Link>
                 </div>
             </div>
         </div>

@@ -38,23 +38,27 @@ const buttonStyle={
 }
 
 
-function ProjectCard(props) {
+
+
+function ProjectCard(props) {    
+
+    const goToTop = () => {        
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    };
+
   return (
     <div className='card-component' style={divStyle}>
         <img style={imgStyle} src={props.img} alt="projectCardImg" />
         <h4 style={headingStyle}>{props.heading}</h4>
         <p style={textStyle}>{props.text}</p>
         <div style={{display:"flex",justifyContent:"center"}}>
-            {/* <a style={buttonStyle} href="case">Read Case Study</a> */}
-            {/* <a style={buttonStyle} href={`/case?heading=${encodeURIComponent(props.heading)}`}>Read Case Study</a> */}
-            {/* <NavLink to="case" style={buttonStyle}  href={`/case?heading=${encodeURIComponent(props.heading)}`}>Read Case Study</NavLink> */}
-            {/* <NavLink to={{
-                pathname: "case",
+            
+            <Link to={{
+                pathname: "/case",
                 state: {
-                    heading: props.heading
+                heading: props.heading
                 }
-                }} style={buttonStyle}>Read Case Study</NavLink> */}
-            <Link to="/case" style={buttonStyle}>Read Case Study</Link>    
+            }} style={buttonStyle} onClick={goToTop} >Read Case Study</Link>    
 
         </div>
         <br></br>
