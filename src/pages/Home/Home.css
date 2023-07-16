@@ -570,11 +570,71 @@
 
 
 /*----------------------Testimonials----------------------*/
+
+.asasasas1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20rem;
+  }
+  
+  .asasasas2 {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .asasasas3 {
+    width: 200%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    position: absolute;
+    animation-name: scrollRightToLeft;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes scrollRightToLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-20%);
+    }
+  }
+  
+  .asasasas4 {
+    width: 200%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    position: absolute;
+    animation-name: scrollLeftToRight;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes scrollLeftToRight {
+    0% {
+      transform: translateX(-20%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+
 .testi-heading{
     margin-top: 7rem;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    display: flex;    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -609,45 +669,7 @@
 
 /*-----------SCROLLING TESTI--------*/
 
-.testi-container {
-    display:flex;
-    
-    align-items: center;
-    height: 10vh;
-    background-color: red;
 
-}
-
-.scroll {
-    margin:0 2rem;
-}
-
-.RightToLeft {
-    display: flex;
-    /* animation: RightToLeft 10s infinite linear; */
-    overflow: hidden;
-}
-@keyframes RightToLeft {
-    from {
-        transform: translate(0%);
-    }
-    to {
-        transform: translate(-50%);
-    }
-}
-.LeftToRight {
-    display: flex;
-    /* animation: LeftToRight 10s infinite linear; */
-    overflow: hidden;
-}
-@keyframes LeftToRight {
-    from {
-        transform: translate(0%);
-    }
-    to {
-        transform: translate(+50%);
-    }
-}
 /*-----------SCROLLING TESTI--------*/
 
 /*------------------------Banner2--------------------*/
