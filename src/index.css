@@ -58,54 +58,56 @@ a {
 
 
 
-.btn {
-    color: pink;
-    width: fit-content;
-    margin:0 auto;
-    padding: 0.9rem 2rem;
-    background: blue;
-    border-radius: 1.5rem;
-    transition: var(--transition);
-    align-items: center;
-    text-align: center;
-}
-.btn:hover {
-    background-color: red;
-    color:yellow;
-}
 
-.btn.lg {
-    /* padding: 1.2rem 3rem; */
-    border-radius: 2rem;
-    font-size: 1.1rem;
-}
-
-.btn.sm {
-    padding: 0.4rem 1.2rem;
-    font-size: 0.9rem;
-}
-.btn.sm:hover {
-    background-color: green;
-}
 
 /* *******************************************ProjectCard Styling************************************************************* */
+.card-component {
+    transition: transform 0.3s ease;
+}
+.card-component:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.289);
+    transform: translate(-8px, -8px);    
+}
+
 .card-component a:hover{
     background-color: #423efe;
     color: white !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.489);
 }
-
+@media screen and (min-width: 1650px){
+    .card-component{
+        width:30rem !important;
+    }
+    .card-component img{
+        width:25rem !important;
+    }
+}
+@media screen and (max-width: 1024px){
+    .card-component p{
+        font-size: 1.7vw  !important;
+    }
+}
+@media screen and (max-width: 825px){
+    .card-component p{
+        font-size: 1.1rem  !important;
+    }
+}
 @media screen and (max-width: 786px){
     .card-component h4{
         font-size: 4.5vw !important;
     }
-    .card-component p{
-        font-size: 2.5vw !important;
-    }
+    
     .card-component img{
         margin-bottom:"0.8rem" !important;
+        width:60vw !important;
     }
     .card-component a{
         font-size: 2.5vw !important;
         padding:1.5vw 3vw !important;
+    }
+}
+@media screen and (max-width: 520px){
+    .card-component p{
+        font-size: 2.5vw !important;
     }
 }

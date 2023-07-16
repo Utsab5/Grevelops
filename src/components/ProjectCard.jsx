@@ -1,5 +1,5 @@
 import React from 'react'
-import "../index.css"
+import "../index.css"//here
 import {  Link } from 'react-router-dom';
 
 const divStyle={
@@ -22,12 +22,12 @@ const headingStyle={
     fontSize:"1.5rem",
     textAlign:"center",
     margin:"1rem",
-    fontWeight:"600",
+    fontWeight:"500",
 }
 const textStyle={
     fontSize:"1rem",
     color:"rgba(23, 23, 23, 0.60)",
-    margin:"1rem",
+    margin:"1rem 2.5rem",
 }
 const buttonStyle={
     fontSize:"1rem",

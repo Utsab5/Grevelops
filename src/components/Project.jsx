@@ -44,7 +44,7 @@ function Project(){
     };
     
     return (
-        <div className="container" style={{justifyContent:"center",display:"flex",marginTop:"10vw"}}>
+        <div className="container project__container" style={{justifyContent:"center",display:"flex",marginTop:"2rem"}}>
             <div className="project" >
                 <div className="project-heading">
                     <h2>Latest Projects for Clients</h2>
@@ -52,7 +52,6 @@ function Project(){
                 </div>
                 <div className="project-card" >{P}</div>
                 <div className="allProj">
-                    {/* <a href="/portfolios">View All Projects</a> */}
                     <Link to="/portfolios" onClick={goToTop} className="project__a">See our Works</Link>
                 </div>
             </div>

@@ -11,8 +11,8 @@ function MainHeader(){
                     <h1>We Combine Code with Design to <span>Craft</span> your Online Business</h1>
                     <p>Helping Brands and Business to Create Apps and Website with our Expertise</p>
                     <div className="main__header-btns">
-                        <button className="btn lg SH">SAY HELLO</button>
-                        <Link to="/portfolios" className="btn lg SW">See our Works</Link>
+                        <button className="btn SH">SAY HELLO</button>
+                        <Link to="/portfolios" className="btn SW">See our Works</Link>
                     </div>
                     <div className="main__header-success">
                         <p>Our Success Until Now</p>

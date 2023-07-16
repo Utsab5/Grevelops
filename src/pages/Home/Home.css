@@ -1,6 +1,6 @@
 .main__header {
     width: 100vw;
-    height: 100vh;
+    height: 48rem;
     display: grid;
     place-items: center;
     margin-top: 3rem;
@@ -56,42 +56,37 @@
 
 .main__header-btns {
     display: flex;
-    /* gap:; */
+    /* gap:1rem; */
+    /* width:50000%; */
 }
-
-.btn.lg.SH {
-    background-color: #423efe;
-    color:white;
-    border: 1px solid #1E77CC;
-    /* width: 218px !important; */
-    width: 15vw !important;
-    height: 58px;
-    font-size: 16px;
-    margin-right: 11px;
-    margin-left: 0;
-    cursor: pointer;
-    /* transition: var(--transition); */
-    
-}
-.btn.lg.SH:hover{
-    background-color: #3936dc;
-}
-.btn.lg.SW {
+.btn {
+    padding: 0.5rem 1rem;
+    margin:0 1.5rem;
+    font: 1rem; 
+    width:50%;
+    border-radius: 2rem !important;  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
-    color: #423EFE;
-    border-radius: 36px;
-    border: 1.5px solid #423EFE;
-    /* width: 251px !important; */
-    width: 20vw !important;
-    height:58px;
-    font-size: 16px;
-    margin-left: 11px;
-    
 }
-.btn.lg.SW:hover{
+.btn.SH{
+    cursor: pointer;
+    font-size: 1rem;
+    border:1.5px solid #423efe;
+}
+.btn.SW{
+    border:1.5px solid #423efe;
+    /* background-color: #423efe; */
+    border-radius: 2rem;
+    color: #423efe;
+}
+.btn.SW:hover{
     background-color: #423efe;
     color: white;
 }
+
+
 .main__header-sparkle img {
     width: 44px;
     height: 44px;
@@ -165,13 +160,24 @@
     line-height: normal;
 }
 
+@media screen and (min-width:1650px) {
+    .btn{
+        
+        width:30%;
+    }
+    .main__header{
+        /* height:66rem; */
+        height:42vw;
+    }
+}
+
 @media screen and (max-width:1024px) { /*1024 and 768*/
 
     .main__header-left h1 {
         font-size: 3vw;
     }
     .main__header{
-        height: 73vh;
+        height: 37rem;
     }
     .main__header-left p {
         font-size: 1.7vw;
@@ -199,7 +205,7 @@
     
 }
 
-@media screen and (max-width:786px){
+@media screen and (max-width:825px){
 
     .main__header{
         height: auto;
@@ -232,6 +238,8 @@
     .main__header-left p{
         
         margin-bottom:1rem ;
+        font-size:1.1rem;
+        line-height: 1.9rem;
     }
     .main__header-success{
         
@@ -260,41 +268,40 @@
     .main__header-btns {
         width:70%;
     }
-    .btn.lg.SH ,.btn.lg.SW {
+    /* .btn.lg.SH ,.btn.lg.SW {
         
         width: 50% !important;
         align-items: center;
         display: flex;
         justify-content: center;
         font-size: 1.99vw;
-    }
+    } */
     .main__header-left h1{
         width:75%;
         font-size: 6vw;
     }
-    .main__header-left p{
-        font-size: 2.3vw;
-        /* width:90%; */
-        line-height: 4vw;
-    }
+    
     .main__header-btns{
         width:95%;
-        height:9vw;
+        gap:1.1rem;
     }
-
-
-
-
-
-
-
-
-    
+    .btn{
+        font-size: 1rem !important;
+        margin:0;
+    }
 }
 
 
 
-
+@media screen and (max-width:520px) {
+    .main__header-left p{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .btn{
+        font-size: 3vw !important;
+    }
+}
 
 
 
@@ -324,6 +331,10 @@
 
 
 /*Project*/
+
+.project__container{
+
+}
 .project{
     display: inline-flex;
     flex-direction: column;
@@ -345,7 +356,8 @@
     font-weight: 600;
 }
 .project-heading p{
-    width: 65%;
+    font-size: 1.2rem;
+    width: 90%;
     color: #3D3D3E; 
 }
 
@@ -354,9 +366,8 @@
     grid-template-columns: 1fr 1fr;
     gap:24px;
 }
-.allProj {
-    
-    margin-bottom: 8rem;
+.allProj {    
+    margin-bottom: 6vw;
 }
 .project__a{
     
@@ -365,8 +376,8 @@
     color:#423efe;
     cursor: pointer;
     /* color:#423efe; */
-    padding: 1rem 2rem;
-    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
     
 }
 .project__a:hover{
@@ -375,7 +386,32 @@
     background-color: #423efe;
     
 }
+@media screen and (min-width: 1440px){
+    .allProj {    
+        margin-bottom: 3vw;
+    }
+}
 
+
+@media screen and (max-width:1024px){
+    .project-heading p{
+        font-size: 1.7vw;
+    }
+    .project__a{
+        font-size:1.7vw ;
+    }
+}
+@media screen and (max-width:825px){
+    .project__container{
+        margin-top: 7rem !important;
+    }
+    .project-heading p{
+        font-size: 1.1rem;
+    }
+    .project__a{
+        font-size:1.1rem ;
+    }
+}
 @media screen and (max-width:786px){
    
     .project-card {    
@@ -389,14 +425,25 @@
     .project-heading h2{
         font-size: 6vw;
     }
-    .project-heading p{
+    /* .project-heading p{
         font-size: 2.5vw;
-    }
+    } */
     .project__a{
         padding: 0.5rem 1rem ;
         font-size: 1rem;
         /* background: red; */
         border: 1px solid #423efe;
+    }
+}
+@media screen and (max-width:520px){
+    .project__container{
+        margin-top: 12vw !important;
+    }
+    .project-heading p{
+        font-size: 3vw;
+    }
+    .project__a{
+        font-size:3vw ;
     }
 }
 
@@ -408,9 +455,12 @@
 }
 .banner__text{
     position: absolute;
-    height: 36vw;
+    height: 28.5vw;
     text-align: center;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner__text:before {
     content: '';
@@ -420,7 +470,7 @@
 }
 .banner__text h2{
     display: inline-block;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     color: rgb(255, 255, 255);
     width: 40%;
     position: relative;
@@ -475,6 +525,7 @@
 }
 .SayHello:hover{
     background-color: #3936dc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.489);
 }
 
 @media screen and (max-width:786px){

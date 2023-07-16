@@ -35,7 +35,7 @@ const textStyle={
 
 function WhatWeDoCard(props) {
   return (
-    <div className='card-component' style={divStyle}>
+    <div className='card-component__wwd' style={divStyle}>
         <img style={imgStyle} src={props.img} alt="" />
         <h4 style={headingStyle}>{props.heading}</h4>
         <p style={textStyle}>{props.text}</p>
