@@ -3,43 +3,39 @@ import "../index.css"
 import WhatWeDoCard from "./WhatWeDoCard";
 
 const wwd_content=[
-    {
-        img:"../images/www.png",
+    {        
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
-    {
-        img:"../images/www.png",
+    {        
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
-    {
-        img:"../images/www.png",
+    {        
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
-    {
-        img:"../images/www.png",
+    {        
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
-    {
-        img:"../images/www.png",
+    {        
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
+    
+    
 ]
 
 function WhatWeDo(){
     const WWDW=wwd_content.map((data)=>{
-        return <WhatWeDoCard
-                    img={data.img}
+        return <WhatWeDoCard                    
                     heading={data.heading}
                     text={data.text}
                 />
     });
     return (
-        <div className="container" style={{justifyContent:"center",display:"flex",marginTop:"7rem"}}>
+        <div className="container wdc" style={{justifyContent:"center",display:"flex",marginTop:"7vw"}}>
             <div className="project" >
                 <div className="project-card-wwd" >
 

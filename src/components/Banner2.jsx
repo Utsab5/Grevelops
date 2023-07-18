@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner2(){
     return (
-        <div className="container banner__1 banner2">
+        <div className="banner__1 banner2">
             <div className="banner__text banner2__text">
                 <h2>Have an Idea in mind ? Let’s Work Together. </h2>
                 

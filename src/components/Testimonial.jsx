@@ -6,49 +6,50 @@ import TestimonialCard from "./TestimonialCard";
 const test__content=[
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Guy Hawkins",
+        post:"Design head, Sony",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Jacob Jones",
+        post:"Facebook",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Wade Warren",
+        post:"CEO, Big Kahuna Burger Ltd.",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Guy Hawkins",
+        post:"Design head, Sony",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Jacob Jones",
+        post:"Facebook",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Wade Warren",
+        post:"CEO, Big Kahuna Burger Ltd.",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Guy Hawkins",
+        post:"Design head, Sony",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Jacob Jones",
+        post:"Facebook",
     },
     {
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Robert Brown",
-        post:"Software engineer",
+        name:"Wade Warren",
+        post:"CEO, Big Kahuna Burger Ltd.",
     },
+    
 ]
 
 function Testimonial(){
