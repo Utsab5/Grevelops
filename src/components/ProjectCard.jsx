@@ -53,12 +53,19 @@ function ProjectCard(props) {
         <p style={textStyle}>{props.text}</p>
         <div style={{display:"flex",justifyContent:"center"}}>
             
-            <Link to={{
+        <Link
+          to={{
+            pathname: `/case/${props.id}`, // Pass the ID as a URL parameter
+          }}
+          style={buttonStyle} onClick={goToTop} >Read Case Study</Link>    
+
+          
+            {/* <Link to={{
                 pathname: "/case",
                 state: {
                 heading: props.heading
                 }
-            }} style={buttonStyle} onClick={goToTop} >Read Case Study</Link>    
+            }} style={buttonStyle} onClick={goToTop} >Read Case Study</Link>     */}
 
         </div>
         <br></br>

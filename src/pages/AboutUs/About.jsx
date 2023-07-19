@@ -7,7 +7,6 @@ import TeamCard from "../../components/TeamCard";
 import WpCards from "../../components/WpCards";
 import ZigZagCard from "../../components/ZigZagCard";
 import "./About.css"
-//import pic from "../../images/team2.png"
 
 const wp__content=[
     {
@@ -58,14 +57,14 @@ const team__content = [
 
 const zzc__content = [
     {
-        flexD:"row",
+        order:"0",
         img:"../images/zzc1.png",
         sub:"Our Mission",
         heading:"Building Better Digital Products for Future",
         txt:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda accusantium, explicabo deserunt delectus iure exercitationem nemo illum necessitatibus a hic quaerat dignissimos. Commodi magnam veniam itaque aliquid delectus molestiae?"
     },
     {
-        flexD:"row-reverse",
+        order:"1",//reverse
         img:"../images/zzc2.png",
         sub:"Our Story",
         heading:"Building Better Digital Products for Future",
@@ -93,7 +92,7 @@ function About(){
     })
     const ZZC = zzc__content.map((data)=>{
         return <ZigZagCard 
-                    flexD={data.flexD}
+                    order={data.order}
                     img={data.img}
                     sub={data.sub}
                     heading={data.heading}

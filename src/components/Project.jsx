@@ -7,26 +7,31 @@ const project__content=[
         img:"../images/project-card.png",
         heading:"Admin Dashboard For Dora ",
         text:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod praesentium voluptates tenetur hic blanditiis unde corporis laboriosam saepe itaque!",
+        id:"1",
     },
     {
         img:"../images/project-card.png",
         heading:"Admin Dashboard For Harry ",
         text:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod praesentium voluptates tenetur hic blanditiis unde corporis laboriosam saepe itaque!",
+        id:"2",
     },
     {
         img:"../images/project-card.png",
         heading:"Admin Dashboard For Jhon ",
         text:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod praesentium voluptates tenetur hic blanditiis unde corporis laboriosam saepe itaque!",
+        id:"3",
     },
     {
         img:"../images/project-card.png",
         heading:"Admin Dashboard For Jane ",
         text:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod praesentium voluptates tenetur hic blanditiis unde corporis laboriosam saepe itaque!",
+        id:"4",
     },
     {
         img:"../images/project-card.png",
         heading:"Admin Dashboard For Prince ",
         text:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod praesentium voluptates tenetur hic blanditiis unde corporis laboriosam saepe itaque!",
+        id:"5",
     },
 ]
 
@@ -36,6 +41,7 @@ function Project(){
                     img={data.img}
                     heading={data.heading}
                     text={data.text}
+                    id={data.id}
                 />
     })
 

@@ -2,8 +2,8 @@ import React from "react";
 
 function ZigZagCard(props){
     return (
-        <div className="zzc" style={{flexDirection:props.flexD}}>
-            <img src={props.img} alt="" />
+        <div className="zzc" >
+            <img src={props.img} style={{order:props.order}} alt="" />
             <div className="zzc_contents">
                 <p className="zzc_sub">{props.sub}</p>
                 <h2>{props.heading}</h2>

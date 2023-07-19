@@ -89,6 +89,7 @@ function Portfolios(){
                                         heading={value.heading}
                                         text={value.text}
                                         button={value.link}
+                                        id={value.id}
                                     />
                             </div>
                             
