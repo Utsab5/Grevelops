@@ -2,20 +2,19 @@ import React from "react";
 import { useParams } from 'react-router-dom';
 import Footer from "../../components/Footer";
 import "./Case.css"
+import {cdata} from "./case_data"
 function Case(){
 
     const {id} = useParams();//Access the id from the url parameter
-
-    // const location = useLocation();
-    // const { heading } = location.state || { heading: 'Built an Admin panel for Mudryk' };
+    const projectData = cdata.find((item) => item.id === parseInt(id));
     return(
+        <>
         <div>
             <div className="case__heading">
-                <h2>{id}</h2>
-                <h2>Built an Admin panel for Mudryk</h2>
+                <h2>{projectData.heading}</h2>
                 <p>An app that help users to manage their Finances and Budget for a better financial life</p>
             </div>
-            <img src="../images/case1.png" alt="" />
+            <img className="case__afterHeader" src="../images/case1.png" alt="" />
             <a className="vls" href="/">Visit live Site</a>
             <div className="case__our-result">
                 <h5>Our Result</h5>
@@ -57,8 +56,10 @@ function Case(){
                 <h5>Our Solution</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id consequuntur suscipit, totam mollitia vel earum repellat molestias nisi nulla, reprehenderit assumenda doloremque ratione. Minus temporibus odio alias sint, beatae dolorem a eos sapiente minima? Officia, sunt soluta et, tenetur atque in ut officiis modi nihil doloribus eos aperiam debitis?</p>
             </div>
-            <Footer />
+            
         </div>
+        <Footer />
+        </>
     );
 };
 export default Case;

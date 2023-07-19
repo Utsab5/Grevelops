@@ -8,7 +8,7 @@ import Banner2 from "../../components/Banner2";
 
 const data=[
     {
-        id:1,
+        id:6,
         item:"WD",//Web Development
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
         heading:"Features of HTML",
@@ -16,7 +16,7 @@ const data=[
         link:"/",
     },
     {
-        id:2,
+        id:7,
         item:"AD",//App Development
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
         heading:"ReactNative or Flutter ?",
@@ -24,7 +24,7 @@ const data=[
         link:"$",
     },
     {
-        id:3,
+        id:8,
         item:"UI",//UI/UX
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
         heading:"How to design in Figma ?",
@@ -32,7 +32,7 @@ const data=[
         link:"$",
     },
     {
-        id:4,
+        id:9,
         item:"WD",//Web Development
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
         heading:"Features of HTML",
@@ -40,7 +40,7 @@ const data=[
         link:"/",
     },
     {
-        id:5,
+        id:10,
         item:"AD",//App Development
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
         heading:"ReactNative or Flutter ?",
@@ -48,7 +48,7 @@ const data=[
         link:"$",
     },
     {
-        id:6,
+        id:11,
         item:"UI",//UI/UX
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
         heading:"How to design in Figma ?",

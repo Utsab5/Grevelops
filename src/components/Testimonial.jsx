@@ -3,59 +3,68 @@ import TestimonialCard from "./TestimonialCard";
 
 /*To start the animation, go to Home.css .RightToLEft and remove the comment frm animation*/
 
-const test__content=[
+const test__content = [
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Guy Hawkins",
-        post:"Design head, Sony",
+      id: "1",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Guy Hawkins",
+      post: "Design head, Sony",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Jacob Jones",
-        post:"Facebook",
+      id: "2",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Jacob Jones",
+      post: "Facebook",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Wade Warren",
-        post:"CEO, Big Kahuna Burger Ltd.",
+      id: "3",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Wade Warren",
+      post: "CEO, Big Kahuna Burger Ltd.",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Guy Hawkins",
-        post:"Design head, Sony",
+      id: "4",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Guy Hawkins",
+      post: "Design head, Sony",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Jacob Jones",
-        post:"Facebook",
+      id: "5",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Jacob Jones",
+      post: "Facebook",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Wade Warren",
-        post:"CEO, Big Kahuna Burger Ltd.",
+      id: "6",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Wade Warren",
+      post: "CEO, Big Kahuna Burger Ltd.",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Guy Hawkins",
-        post:"Design head, Sony",
+      id: "7",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Guy Hawkins",
+      post: "Design head, Sony",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Jacob Jones",
-        post:"Facebook",
+      id: "8",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Jacob Jones",
+      post: "Facebook",
     },
     {
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
-        name:"Wade Warren",
-        post:"CEO, Big Kahuna Burger Ltd.",
+      id: "9",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, voluptas.",
+      name: "Wade Warren",
+      post: "CEO, Big Kahuna Burger Ltd.",
     },
-    
-]
+  ];
 
 function Testimonial(){
 
     const TC=test__content.map((data)=>{
         return <TestimonialCard
+                    key={data.id}
                     text={data.text}
                     name={data.name}
                     post={data.post}

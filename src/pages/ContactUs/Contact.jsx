@@ -35,6 +35,7 @@ function Contact(){
 
     const C=card_content.map((data) => {
         return <Card1
+                    key={data.id}
                     heading={data.heading}
                     txt={data.txt}
                     btn={data.btn}

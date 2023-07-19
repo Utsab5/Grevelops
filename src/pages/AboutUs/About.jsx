@@ -33,56 +33,63 @@ const wp__content=[
 
 const team__content = [
     {
-        img: "../images/team1.png",
-        name: "Ayush Mittal",
-        pos: "Co-founder & CEO",
-        linkedin: "www.linkedin.com",
-        twitter: "www.twitter.com"
+      id: "1",
+      img: "../images/team1.png",
+      name: "Ayush Mittal",
+      pos: "Co-founder & CEO",
+      linkedin: "www.linkedin.com",
+      twitter: "www.twitter.com",
     },
     {
-        img: "../images/team2.png",
-        name: "Ayush Mittal",
-        pos: "Co-founder & CEO",
-        linkedin: "www.linkedin.com",
-        twitter: "www.twitter.com"
+      id: "2",
+      img: "../images/team2.png",
+      name: "Ayush Mittal",
+      pos: "Co-founder & CEO",
+      linkedin: "www.linkedin.com",
+      twitter: "www.twitter.com",
     },
     {
-        img: "../images/team3.png",
-        name: "Ayush Mittal",
-        pos: "Co-founder & CEO",
-        linkedin: "www.linkedin.com",
-        twitter: "www.twitter.com"
+      id: "3",
+      img: "../images/team3.png",
+      name: "Ayush Mittal",
+      pos: "Co-founder & CEO",
+      linkedin: "www.linkedin.com",
+      twitter: "www.twitter.com",
     },
-];
+  ];
 
-const zzc__content = [
+  const zzc__content = [
     {
-        order:"0",
-        img:"../images/zzc1.png",
-        sub:"Our Mission",
-        heading:"Building Better Digital Products for Future",
-        txt:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda accusantium, explicabo deserunt delectus iure exercitationem nemo illum necessitatibus a hic quaerat dignissimos. Commodi magnam veniam itaque aliquid delectus molestiae?"
+      id: "1",
+      order: "0",
+      img: "../images/zzc1.png",
+      sub: "Our Mission",
+      heading: "Building Better Digital Products for Future",
+      txt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda accusantium, explicabo deserunt delectus iure exercitationem nemo illum necessitatibus a hic quaerat dignissimos. Commodi magnam veniam itaque aliquid delectus molestiae?",
     },
     {
-        order:"1",//reverse
-        img:"../images/zzc2.png",
-        sub:"Our Story",
-        heading:"Building Better Digital Products for Future",
-        txt:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda accusantium, explicabo deserunt delectus iure exercitationem nemo illum necessitatibus a hic quaerat dignissimos. Commodi magnam veniam itaque aliquid delectus molestiae?"
+      id: "2",
+      order: "1", // reverse
+      img: "../images/zzc2.png",
+      sub: "Our Story",
+      heading: "Building Better Digital Products for Future",
+      txt: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, assumenda accusantium, explicabo deserunt delectus iure exercitationem nemo illum necessitatibus a hic quaerat dignissimos. Commodi magnam veniam itaque aliquid delectus molestiae?",
     },
-]
+  ];
 
 function About(){
     
     const WP = wp__content.map((data)=>{
         return <WpCards 
                     index={data.index}
+                    key={data.index}
                     h4={data.h4}
                     p={data.p}
                 />    
     })
     const TC = team__content.map((data)=>{
         return <TeamCard 
+                    key={data.id}
                     image={data.img}
                     name={data.name}
                     pos={data.pos}
@@ -92,6 +99,7 @@ function About(){
     })
     const ZZC = zzc__content.map((data)=>{
         return <ZigZagCard 
+                    key={data.id}
                     order={data.order}
                     img={data.img}
                     sub={data.sub}

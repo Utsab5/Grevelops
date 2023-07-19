@@ -4,22 +4,27 @@ import WhatWeDoCard from "./WhatWeDoCard";
 
 const wwd_content=[
     {        
+        id:"1",
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
     {        
+        id:"2",
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
     {        
+        id:"3",
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
     {        
+        id:"4",
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
     {        
+        id:"5",
         heading:"Web Development",
         text:"The elements of a website made solely using HTML and CSS would normally be present on a Watch Collection website buil",
     },
@@ -29,7 +34,8 @@ const wwd_content=[
 
 function WhatWeDo(){
     const WWDW=wwd_content.map((data)=>{
-        return <WhatWeDoCard                    
+        return <WhatWeDoCard  
+                    key={data.id}                  
                     heading={data.heading}
                     text={data.text}
                 />
@@ -42,7 +48,7 @@ function WhatWeDo(){
                     <div className="wwd__div">
                         <p>What We Do</p>
                         <h3>We Bring Happiness using Services</h3>
-                        <a class="SayHello" href="https://">Say Hello</a>
+                        <a className="SayHello" href="https://">Say Hello</a>
                     </div>
                     {WWDW}
                 </div>

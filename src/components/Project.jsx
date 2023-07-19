@@ -42,6 +42,7 @@ function Project(){
                     heading={data.heading}
                     text={data.text}
                     id={data.id}
+                    key={data.id}
                 />
     })
 

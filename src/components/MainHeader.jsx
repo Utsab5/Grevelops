@@ -33,11 +33,11 @@ function MainHeader(){
                     </div>
                     <div className="main__header-images">
 
-                        <div class="main__header-images-left">
+                        <div className="main__header-images-left">
                             <img src="../images/Header_img1.png" alt="Header-img1" />
                             <img src="../images/Header_img3.png" alt="Header-img3" />
                         </div>
-                        <div class="main__header-images-right">
+                        <div className="main__header-images-right">
                             <img src="../images/Header_img2.png" alt="Header-img2" />
                             <img src="../images/Header_img4.png" alt="Header-img4" />
                         </div>
