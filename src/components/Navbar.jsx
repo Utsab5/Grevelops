@@ -8,6 +8,9 @@ import {MdOutlineClose} from "react-icons/md"
 
 function Navbar(){
 
+    const goToTop = () => {        
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    };
     const [isNavShowing, setIsNavShowing] =useState(false);
     return (
         <nav>
@@ -20,7 +23,12 @@ function Navbar(){
                         links.map(({name, path}, index) =>{
                             return (
                                 <li key={index}>
-                                    <NavLink to={path} className={ ({isActive}) => isActive ? "active-nav" : ""} onClick={()=> setIsNavShowing(prev => !prev)} >{name}</NavLink>
+                                    <NavLink to={path} className={ ({isActive}) => isActive ? "active-nav" : ""}   
+                                    onClick={()=> 
+                                    {
+                                        setIsNavShowing(prev => !prev);
+                                        goToTop();
+                                    }} >{name}</NavLink>
                                 </li>
                             )
                         })

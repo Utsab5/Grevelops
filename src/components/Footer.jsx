@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 //css present in Home.css
 
 function Footer(){
+    const goToTop = () => {        
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    };
     return (
         <footer>
             <div className=" footer__container">
                 <article>
-                    <Link to="/" className="logo">
+                    <Link to="/" className="logo" onClick={goToTop}>
                         <p>Grevelops</p>
                     </Link>
                     <p className="textUnderLogo">A agency that helps business to create better apps and websites with modern Technology</p>

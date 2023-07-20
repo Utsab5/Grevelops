@@ -59,7 +59,7 @@ function Project(){
                 </div>
                 <div className="project-card" >{P}</div>
                 <div className="allProj">
-                    <Link to="/portfolios" onClick={goToTop} className="project__a">See our Works</Link>
+                    <Link to="/portfolios" onClick={goToTop} className="project__a">View All Projects</Link>
                 </div>
             </div>
         </div>
