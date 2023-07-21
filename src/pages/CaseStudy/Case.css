@@ -12,7 +12,7 @@
     text-align: center;
     margin:1rem 0;
     font-size: 1.2rem;
-    padding:0 3rem;
+    padding:0 7%;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -59,8 +59,24 @@
         font-size: 3.2vw;
     }
     .case__heading p {
-        font-size: 80%;
-        /* font-size: 1.8vw; */
+        font-size: 1.5vw;
+    }
+    .vls{
+        font-size: 1.8vw;
+    }
+}
+@media screen and (max-width:979.8px) { /*mobiles*/
+    .case__heading p {
+        font-size: 1.2vw;
+    }
+    .vls{
+        font-size: 2.2vw;
+    }
+}
+@media screen and (max-width:979.7px) { 
+    .case__heading p { 
+        /* font-size: 1.7vw; */
+        font-size: 1.7vw;
     }
     .vls{
         font-size: 1.8vw;
@@ -91,7 +107,7 @@
 }
 .case__our-result h5{
     color: #757575;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -115,7 +131,7 @@
 .case__our-result p{
     color: #14134F;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -126,7 +142,7 @@
     background-color: #BCBBFF;
     border-radius: 1rem;
     gap:1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 .case__our-result .overview .overview_contents{   
@@ -182,11 +198,23 @@
     }
     .case__our-result p { 
         /* font-size: 1.7vw; */
-        font-size: 80%;
+        font-size: 1.7vw;
     }
     .case__our-result .overview .overview_contents p{
         font-size: 1.8vw;
     } 
+}
+@media screen and (max-width:979.8px) { /*mobiles*/
+    .case__our-result p { 
+        /* font-size: 1.7vw; */
+        font-size: 1vw;
+    }
+}
+@media screen and (max-width:979.7px) { 
+    .case__our-result p { 
+        /* font-size: 1.7vw; */
+        font-size: 1.7vw;
+    }
 }
 @media screen and (max-width:825px) {    
     .case__our-result h5 , .case__our-result .overview .overview_contents h4{ 
@@ -332,19 +360,3 @@
 
 
 
-
-
-
-
-
-
-
-
-@media screen and (min-width:1650px) {    
-}
-@media screen and (max-width:1024px) {    
-}
-@media screen and (max-width:825px) {    
-}
-@media screen and (max-width:520px) {    
-}

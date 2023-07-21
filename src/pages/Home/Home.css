@@ -613,10 +613,21 @@
         font-size: 3vw;
     }
     .wwd__div h3{
-        font-size: 4vw;
+        font-size: 4vw !important;
+    }
+    .card-component__wwd {
+        margin:0 10%;
+    }
+    .card-component__wwd svg{
+        margin-bottom: 0 !important;
+        width: 11% !important;
+    }
+    .card-component__wwd h4{
+        font-size: 4.5vw !important;
+        margin: 4vw 1rem !important;
     }
     .card-component__wwd p{
-        font-size: 3vw;
+        font-size: 3vw !important;
     }
 }
 
