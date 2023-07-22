@@ -80,6 +80,7 @@
     /* background-color: #423efe; */
     border-radius: 2rem;
     color: #423efe;
+    transition: color 0.3s ease;
 }
 .btn.SW:hover{
     background-color: #423efe;
@@ -364,7 +365,7 @@
 .project-card {    
     display:grid;
     grid-template-columns: 1fr 1fr;
-    gap:24px;
+    gap:3rem;
 }
 .allProj {    
     margin-bottom: 6vw;
@@ -379,7 +380,7 @@
     cursor: pointer;
     padding: 0.5rem 1.2rem;
     font-size: 1rem;
-    
+    transition: color 0.3s ease;
 }
 .project__a:hover{
     
@@ -412,17 +413,17 @@
     .project__a{
         font-size:1.1rem ;
     }
-}
-@media screen and (max-width:786px){
-   
-    .project-card {    
-        
-        grid-template-columns: 1fr;
-        
+    .project-card {         
+        grid-template-columns: 1fr;        
     }
     .card-component {
         width: 70vw !important;
     }
+}
+@media screen and (max-width:786px){
+   
+    
+    
     .project-heading h2{
         font-size: 6vw;
     }
@@ -477,11 +478,55 @@
     position: relative;
     z-index: 1;
     line-height: 4vw;
+    font-weight: 600;
 }
-.banner__1 img{
+.banner__1 .imgB{
     display: block;
     max-width: 100%;
     height: auto;
+}
+.banner__1 .imgS{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    .banner__1 .imgB{
+        height:38vw;
+    }
+    .banner__text{
+        height:38vw;
+    }
+    .banner__text h2{
+        font-size: 4.5vw;
+        width:67vw;
+        line-height: 7vw;
+    }
+}
+@media screen and (max-width:520px) {
+    .banner__1 .imgB{
+        display: none;
+    }
+    .banner__1 .imgS{
+        display: block;
+    }
+    /* .banner__text{
+        position: relative;
+        background-image: url("../../../public/images/banner1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    } */
+}
+@media screen and (max-width:520px) {
+    .banner__1 img{
+        height: 55vw;
+    }
+    .banner__text {
+        height: 55vw;
+    }
+    .banner__text h2 {
+        font-size: 6vw;
+        width: 76%;
+        line-height: 9vw;
+    }
 }
 /*------------------------------Banner-----------------------------*/
 
@@ -527,9 +572,10 @@
     background-color: #423EFE;
     border: 2px solid #423EFE;
     border-radius: 3rem;
+    transition: box-shadow 0.3s ease;
 }
 .SayHello:hover{
-    background-color: #3936dc;
+    /* background-color: #3936dc; */
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.489);
 }
 @media screen and (min-width:1650px){
@@ -780,7 +826,7 @@
 /*------------------------Banner2--------------------*/
 
 .banner2__text{
-    height:28vw;
+    height:24vw;
 }
 .banner2__text h2{    
     font-size: 3vw ;
@@ -792,10 +838,11 @@
 .banner2SH{
     font-size: 1rem;
     align-items: end;
+    transition: color 0.3s ease;
 }
 
 .banner2SH:hover{
-    color:white;
+    /* color:red; */
     border:1px solid white;
 }
 .banner2__btn{
@@ -821,6 +868,20 @@
         /* font-size: 2.2vw; */
     }
 }
+@media screen and (max-width:800px){
+    .banner2__text{
+        height:33vw;
+    }
+    .banner2__text h2{
+        font-size: 4.5vw;
+        width: 67vw;
+        line-height: 7vw;
+    }
+    .banner2__btn a{
+        top:12vw;
+        padding:1vw 4vw !important;
+    }
+}
 @media screen and (max-width:825px){
     .banner2SH{
         font-size: 0.9rem;
@@ -838,14 +899,19 @@
     .banner2SH{
         font-size: 3vw; 
         padding:0.4vw 2vw !important;
-        top:10vw !important;       
+        top:17vw !important;       
     }
     .banner2__text{
         height:25vw;
+
+
+
+        height:45vw;/*55 -10 for center alignment*/
     }
     .banner2__text h2{    
-        /* font-size: 4vw; */
-        width:55%;
+        font-size: 6vw;
+        width:76%;
+        line-height: 9.5vw;
     }
 }
 
@@ -933,11 +999,12 @@ footer {
         margin: 0 1rem;
     }
     .footer__container article{
-        align-items: center;
+        /* align-items: center; */
+        padding-left: 2rem;
         gap:0;
     }
     .footer__container article p{
-        text-align: center;
+        /* text-align: center; */
     }
     .footer__copyright{
         margin-top: 3rem;

@@ -2,6 +2,10 @@
     margin-top: 5.8rem;
     margin-bottom: 3rem;
 }
+.case__heading .url{
+    color:grey;
+    text-align: left;
+}
 .case__heading h2{
     padding-top: 3rem;
     font-size: 2rem;
@@ -31,13 +35,14 @@
     margin:2rem auto;
     display: flex;
     width: fit-content;
-    padding:0.5rem 1rem;
+    padding:0.4rem 1rem;
     color:#423EFE;
-    border:2px solid #423EFE;
+    border:1px solid #423EFE;
     /* background-color: blue; */
     border-radius: 2rem;
     margin-bottom: 4rem;
     font-size: 1rem;
+    transition: color 0.3s ease;
 }
 .vls:hover {
     color:white;
@@ -87,7 +92,7 @@
         font-size: 1.5rem;
     }
     .case__heading p , .vls{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 @media screen and (max-width:520px) {    
@@ -156,6 +161,11 @@
 .case__our-result .overview .overview_contents p {   
     margin-bottom: 0.5rem;
     font-size: 1rem;
+}
+
+.case__our-result .ourSolutionImg{
+    margin:3rem auto;
+    border-radius: 1rem;
 }
 
 

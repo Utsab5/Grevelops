@@ -19,7 +19,7 @@ const data=[
         id:7,
         item:"AD",//App Development
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
-        heading:"ReactNative or Flutter ?",
+        heading:"ReactNative or Flutter",
         text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
         link:"$",
     },
@@ -27,7 +27,7 @@ const data=[
         id:8,
         item:"UI",//UI/UX
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
-        heading:"How to design in Figma ?",
+        heading:"How to design in Figma",
         text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
         link:"$",
     },
@@ -43,7 +43,7 @@ const data=[
         id:10,
         item:"AD",//App Development
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
-        heading:"ReactNative or Flutter ?",
+        heading:"ReactNative or Flutter",
         text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
         link:"$",
     },
@@ -51,7 +51,7 @@ const data=[
         id:11,
         item:"UI",//UI/UX
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3qEToYKdCNo7h7WiEc191etn-rxUBm6cXw&usqp=CAU",
-        heading:"How to design in Figma ?",
+        heading:"How to design in Figma",
         text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nisi ipsam porro, corrupti consectetur voluptas?",
         link:"$",
     },

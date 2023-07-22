@@ -60,10 +60,13 @@
         width: 80%;
     }
 }
-@media screen and (max-width: 786px){
+@media screen and (max-width: 825px){
     .items {
         grid-template-columns: 1fr;
     }
+}
+@media screen and (max-width: 786px){
+    
     .port-heading p{
         width:80%;
     }
@@ -90,6 +93,10 @@
     .category{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width:100%;
+    }
+    .category div{
+        font-size: 2.59vw;
     }
 }
 /*----------------------------TABS------------------------*/

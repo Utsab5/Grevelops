@@ -1,6 +1,6 @@
 import React from 'react'
 import "../index.css"//here
-import {  Link } from 'react-router-dom';
+import {  Link} from 'react-router-dom';
 
 const divStyle={
     width: "35vw",
@@ -45,6 +45,7 @@ function ProjectCard(props) {
     const goToTop = () => {        
         window.scrollTo(0, 0); // Scroll to the top of the page
     };
+    
 
   return (
     <div className='card-component' style={divStyle}>
@@ -55,17 +56,11 @@ function ProjectCard(props) {
             
         <Link
           to={{
-            pathname: `/case/${props.id}`, // Pass the ID as a URL parameter
+            pathname: `case/${props.heading}`, // Pass the heading as a URL parameter
           }}
           style={buttonStyle} onClick={goToTop} >Read Case Study</Link>    
 
-          
-            {/* <Link to={{
-                pathname: "/case",
-                state: {
-                heading: props.heading
-                }
-            }} style={buttonStyle} onClick={goToTop} >Read Case Study</Link>     */}
+
 
         </div>
         <br></br>

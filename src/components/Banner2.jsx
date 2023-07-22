@@ -4,13 +4,14 @@ function Banner2(){
     return (
         <div className="banner__1 banner2">
             <div className="banner__text banner2__text">
-                <h2>Have an Idea in mind? Let’s Work Together. </h2>
+                <h2>Have An Idea In Mind? Let’s Work Together. </h2>
                 <div className="banner__text banner2__btn">
-                    <a className="SayHello banner2SH" href="https://">Say Hello</a>
+                    <a className="SayHello banner2SH" href="https://wa.me/918100460390">Say Hello</a>
                 </div>
             </div>
             
-            <img src="../images/banner2.png" alt="" />
+            <img className="imgB" src="../images/banner2.png" alt="" />
+            <img className="imgS" src="../images/banner2m.png" alt="" />
         </div>
     );
 };

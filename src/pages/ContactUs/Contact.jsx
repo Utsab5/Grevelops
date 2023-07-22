@@ -19,7 +19,7 @@ const card_content=[
         heading:"Message us",
         txt:"Chat with our WhatsApp Assistant immediately or leave a message",
         btn:"Say Hello!",
-        link:"",
+        link:"https://wa.me/918100460390",
         green:"yes",
     },
     {
@@ -50,7 +50,7 @@ function Contact(){
                 txt="WE ARE GREVELOPS, LET’S TALK"
             />
             <div className="contact__heading">
-                <h3>Want to know more? Reach out us</h3>
+                <h3>Want to know more? <br/> Reach out us</h3>
             </div>
             <div className="contact__btn">
                 <a href="/">Recommend</a>

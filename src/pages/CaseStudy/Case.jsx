@@ -1,27 +1,33 @@
 import React from "react";
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation} from 'react-router-dom';
 import Footer from "../../components/Footer";
 import "./Case.css"
 import {cdata} from "./case_data"
 function Case(){
 
-    const {id} = useParams();//Access the id from the url parameter
-    const projectData = cdata.find((item) => item.id === parseInt(id));
+    const { heading } = useParams();
+    const projectData = cdata.find((item) => item.heading === heading);
+
+    const location = useLocation();
+    const { pathname } = location;
+    const hasPortfolios = pathname.includes('portfolios')? 'Portfolios' : 'Home';
+
     return(
         <>
         <div>
             <div className="case__heading">
-                <h2>{projectData.heading}</h2>
+                <p className="url">{hasPortfolios} / {heading}</p>
+                <h2>{heading}</h2>
                 <p>An app that help users to manage their Finances and Budget for a better financial life</p>
             </div>
-            <img className="case__afterHeader" src="../images/case1.png" alt="" />
+            <img className="case__afterHeader" src={`${process.env.PUBLIC_URL}/${projectData.imgH}`} alt="" />
             <a className="vls" href="/">Visit live Site</a>
             <div className="case__our-result">
                 <h5>Our Result</h5>
-                <img className="bigimg" src="../images/case2.png" alt="" />
+                <img className="bigimg" src={`${process.env.PUBLIC_URL}/${projectData.img1}`} alt="" />
                 <div className="fl">
-                    <img src="../images/case3.png" alt="" />
-                    <img src="../images/case4.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/${projectData.img2}`} alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/${projectData.img3}`} alt="" />
                 </div>
                 <h5>Overview</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id consequuntur suscipit, totam mollitia vel earum repellat molestias nisi nulla, reprehenderit assumenda doloremque ratione. Minus temporibus odio alias sint, beatae dolorem a eos sapiente minima? Officia, sunt soluta et, tenetur atque in ut officiis modi nihil doloribus eos aperiam debitis?</p>
@@ -55,6 +61,8 @@ function Case(){
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id consequuntur suscipit, totam mollitia vel earum repellat molestias nisi nulla, reprehenderit assumenda doloremque ratione. Minus temporibus odio alias sint, beatae dolorem a eos sapiente minima? Officia, sunt soluta et, tenetur atque in ut officiis modi nihil doloribus eos aperiam debitis?</p>
                 <h5>Our Solution</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id consequuntur suscipit, totam mollitia vel earum repellat molestias nisi nulla, reprehenderit assumenda doloremque ratione. Minus temporibus odio alias sint, beatae dolorem a eos sapiente minima? Officia, sunt soluta et, tenetur atque in ut officiis modi nihil doloribus eos aperiam debitis?</p>
+                <img className="ourSolutionImg" src={`${process.env.PUBLIC_URL}/${projectData.imgH}`} alt="ourSolutionImg" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odit quibusdam quod voluptate alias, eligendi laudantium pariatur est fugit nostrum corrupti molestias explicabo ratione fugiat, magni tenetur unde cumque quidem delectus. Iusto iure deserunt quod!</p>
             </div>
             
         </div>

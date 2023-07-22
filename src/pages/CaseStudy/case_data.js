@@ -1,47 +1,102 @@
 const cdata=[
     {
         id:1,
-        heading:"Built an Admin panel for Dora"
+        heading:"Admin Dashboard For Dora",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:2,
-        heading:"Built an Admin panel for Harry"
+        heading:"Admin Dashboard For Harry",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:3,
-        heading:"Built an Admin panel for Jhon"
+        heading:"Admin Dashboard For Jhon",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:4,
-        heading:"Built an Admin panel for Jane"
+        heading:"Admin Dashboard For Jane",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:5,
-        heading:"Built an Admin panel for Prince"
+        heading:"Admin Dashboard For Prince",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:6,
-        heading:"Features of HTML"
+        heading:"Features of HTML",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:7,
-        heading:"ReactNative or Flutter ?"
+        heading:"ReactNative or Flutter",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:8,
-        heading:"How to design in Figma ?"
+        heading:"How to design in Figma",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:9,
-        heading:"Features of HTML"
+        heading:"Features of HTML",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:10,
-        heading:"ReactNative or Flutter ?"
+        heading:"ReactNative or Flutter",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
     {
         id:11,
-        heading:"How to design in Figma ?"
+        heading:"How to design in Figma",
+        passage:"this is home1",
+        imgH:"images/case1.png",
+        img1:"images/case2.png",
+        img2:"images/case3.png",
+        img3:"images/case4.png",
     },
 ];
 //1-5: for Home 

@@ -4,6 +4,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function MainHeader(){
+
+    const whatsapp=()=>{
+        // window.open("https://wa.me/918100460390",'_blank')
+        window.location.href="https://wa.me/918100460390"
+    }
+
     return(
         <header className="main__header">
             <div className="container main__header-container">
@@ -11,7 +17,7 @@ function MainHeader(){
                     <h1>We Combine Code with Design to <span>Craft</span> your Online Business</h1>
                     <p>Helping Brands and Business to Create Apps and Website with our Expertise</p>
                     <div className="main__header-btns">
-                        <button className="btn SH">SAY HELLO</button>
+                        <button className="btn SH" onClick={whatsapp}>SAY HELLO</button>
                         <Link to="/portfolios" className="btn SW">See our Works</Link>
                     </div>
                     <div className="main__header-success">

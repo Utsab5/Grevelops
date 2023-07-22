@@ -38,6 +38,7 @@ nav {
 }
 .nav__links a {
     transition: var(--transition);
+    transition: color 0.3s ease;
     cursor: pointer;
 }
 
@@ -61,7 +62,8 @@ nav {
     color:#5350fe;
     padding: 0.5rem 1rem;
     border-radius: 1.5rem;
-    transition: none !important;
+    /* transition: none !important; */
+    transition: color 0.3s ease;
 }
 .SH:hover{
     background-color: #423efe;

@@ -63,17 +63,19 @@ a {
 
 /* *******************************************ProjectCard Styling************************************************************* */
 .card-component {
-    transition: transform 0.3s ease;
+    transition: box-shadow 0.3s ease;
 }
 .card-component:hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.289);
-    transform: translate(-8px, -8px);    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.289);
+    /* transform: translate(-8px, -8px);     */
 }
-
+.card-component a{
+    transition: box-shadow,color 0.3s ease;
+}
 .card-component a:hover{
     background-color: #423efe;
     color: white !important;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.489);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.489);
 }
 @media screen and (min-width: 1650px){
     .card-component{
@@ -92,19 +94,21 @@ a {
 }
 @media screen and (max-width: 825px){
     .card-component p{
-        font-size: 1.1rem  !important;
-        
+        font-size: 1.1rem  !important;        
+    }
+    .card-component img{
+        margin-bottom:0.8rem !important;
+        width:60vw !important;
+    }
+    .card-component h4{
+        font-size: 4vw !important;
     }
 }
 @media screen and (max-width: 786px){
     .card-component h4{
-        font-size: 4.5vw !important;
-    }
+        font-size: 4.3vw !important;
+    }    
     
-    .card-component img{
-        margin-bottom:"0.8rem" !important;
-        width:60vw !important;
-    }
     .card-component a{
         font-size: 2.5vw !important;
         padding:1.5vw 3vw !important;
