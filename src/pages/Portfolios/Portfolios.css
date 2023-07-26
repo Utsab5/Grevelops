@@ -82,10 +82,12 @@
         grid-template-columns: 1fr;
     }
     .card-component {
-        width:65vw !important;
+        /* width:65vw !important; */
+        width:100% !important;
     }
     .card-component img {
-        width:59vw !important;
+        /* width:59vw !important; */
+        width:68vw !important;
     }
 }
 @media screen and (max-width: 786px){
