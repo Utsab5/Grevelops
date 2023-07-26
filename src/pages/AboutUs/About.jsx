@@ -114,7 +114,8 @@ function About(){
                 <h4>At Grevelops, we are passionate about pushing the boundaries of web and App development and staying ahead of the latest trends and technologies.</h4>
             </div>
             <OverlayImageBanner 
-                img="../images/oibImg1.png" 
+                img1="../images/oibImg1c.png" 
+                img2="../images/oibImg1.png" 
                 txt="A TEAM THAT ALWAYS FOCUS ON YOUR GROWTH"
             />
             <div className="zzc_container">{ZZC}</div>

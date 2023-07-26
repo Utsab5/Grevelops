@@ -3,7 +3,7 @@ import "../index.css"//here
 import {  Link} from 'react-router-dom';
 
 const divStyle={
-    width: "35vw",
+    width: "28vw",
     height: "auto",
     flexShrink: 0,
     backgroundColor: "white",    
@@ -12,7 +12,7 @@ const divStyle={
 }
 const imgStyle={
     // paddingTop:"1rem",
-    width: "32vw",
+    width: "25vw",
     // height: "auto",
     margin:"0.8rem auto",
     marginTop:"0",
@@ -27,7 +27,7 @@ const headingStyle={
 const textStyle={
     fontSize:"1rem",
     color:"rgba(23, 23, 23, 0.60)",
-    margin:"1rem 2.5rem",
+    margin:"1rem 1.3rem",
 }
 const buttonStyle={
     fontSize:"1rem",

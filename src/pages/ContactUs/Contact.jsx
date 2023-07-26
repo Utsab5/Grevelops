@@ -46,7 +46,8 @@ function Contact(){
     return (
         <div className="contact__container">
             <OverlayImageBanner 
-                img="../images/oibImg2.png" 
+                img1="../images/oibImg2c.png" 
+                img2="../images/oibImg2.png" 
                 txt="WE ARE GREVELOPS, LET’S TALK"
             />
             <div className="contact__heading">
@@ -64,7 +65,7 @@ function Contact(){
                     <p className="ph">(603) 555-0123</p>
                     <p className="email">curtis.weaver@example.com</p>
                 </div>
-                <img src="../images/GetInTouch.png" alt="" />
+                <img src="../images/GetInTouch2.jpg" alt="" />
             </div>
             <Banner2 />
             <Footer/>

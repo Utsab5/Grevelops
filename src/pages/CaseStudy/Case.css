@@ -20,9 +20,9 @@
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
-/* .case__afterHeader{
-    
-} */
+.case__afterHeader{
+    height:25vw;
+}
 @media screen and (min-width:1650px) {  
     .case__afterHeader{
         max-width:152rem;
