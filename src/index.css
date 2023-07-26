@@ -75,7 +75,8 @@ a {
 .card-component a:hover{
     background-color: #423efe;
     color: white !important;
-    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.289);
+    /* box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.289); */
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.14);
 }
 @media screen and (min-width: 1650px){
     .card-component{

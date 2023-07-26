@@ -56,7 +56,7 @@
     transition: box-shadow 0.3s ease;  
 }
 .contact__btn a:hover{
-    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.289);
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.14);
     background-color: darkgreen;
 }
 
@@ -121,7 +121,7 @@
 }
 .card1__container a:hover{
     background: #423EFE;
-    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.289);
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.14);
     color: white;    
 }
 
