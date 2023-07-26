@@ -106,7 +106,7 @@ a {
 }
 @media screen and (max-width: 786px){
     .card-component h4{
-        font-size: 3.5vw !important;
+        font-size: 4.2vw !important;
     }    
     
     .card-component a{
